@@ -42,6 +42,10 @@ No modules.
 | <a name="output_project_used"></a> [project\_used](#output\_project\_used) | n/a |
 <!-- END_TF_DOCS -->
 
+<!-- BEGIN_RESOURCE_DESCRIPTIONS -->
+## Resource Descriptions
+- local_file.example: Automatically captured from Terraform state.
+<!-- END_RESOURCE_DESCRIPTIONS -->
 <!-- BEGIN_REAL_OUTPUTS -->
 ## Actual Terraform Output Values
 - file_path: example.txt
