@@ -1,0 +1,57 @@
+# -----------------------------
+# Terraform
+# -----------------------------
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.backup
+*.log
+.terraform/
+.terraform.lock.hcl
+
+# Local provider binaries (Terraform plugin cache)
+.terraform/providers/
+.terraform/plugins/
+
+# -----------------------------
+# Generated Workflow Files
+# -----------------------------
+# These are created by your GitHub Actions workflow
+outputs_section.md
+tf_outputs.json
+README.md   # optional: ignore if you only want workflow to handle updates
+# workflow temp files (if any)
+*.tmp
+*.bak
+
+# -----------------------------
+# Terraform-docs config / cache
+# -----------------------------
+.terraform-docs.yml
+.terraform-docs-cache/
+
+# -----------------------------
+# Editor / IDE
+# -----------------------------
+*.swp
+*.swo
+*.swn
+*~
+*.bak
+.vscode/
+.idea/
+.DS_Store
+
+# -----------------------------
+# OS-specific
+# -----------------------------
+Thumbs.db
+Desktop.ini
+
+# -----------------------------
+# GitHub Actions / CI
+# -----------------------------
+# cache or temp directories
+.github/workflows/*.lock
+.github/workflows/.cache/
