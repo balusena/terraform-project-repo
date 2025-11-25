@@ -10,3 +10,4 @@ This module demonstrates Terraform local provider usage.
 ## Actual Terraform Output Values
 <!-- workflow will append outputs here -->
 <!-- END_REAL_OUTPUTS -->
+
