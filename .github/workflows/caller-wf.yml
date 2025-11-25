@@ -1,38 +1,16 @@
-name: Auto Generate README
+name: Update README From Reusable Workflow
 
 on:
-  workflow_call:
-    inputs:
-      working_dir:
-        required: true
-        type: string
-      commit_message:
-        required: true
-        type: string
+  push:
+    branches: ["main"]
+  pull_request:
 
 permissions:
-  contents: write   # REQUIRED so workflow can push README updates
+  contents: write   # REQUIRED so reusable workflow can commit README.md
 
 jobs:
-  generate-readme:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup Terraform
-        uses: hashicorp/setup-terraform@v3
-
-      - name: Generate README
-        uses: terraform-docs/gh-actions@v1.0.0
-        with:
-          working-dir: ${{ inputs.working_dir }}
-          output-file: README.md
-          output-method: inject
-
-      - name: Commit and Push
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: ${{ inputs.commit_message }}
-          file_pattern: README.md
+  update-readme:
+    uses: balusena/readme-generator-repo/.github/workflows/auto-generate-readme.yml@main
+    with:
+      working_dir: "."
+      commit_message: "docs: auto-update README via reusable workflow"
