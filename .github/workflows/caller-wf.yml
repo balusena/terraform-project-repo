@@ -1,0 +1,13 @@
+name: Update README From Reusable Workflow
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+
+jobs:
+  update-readme:
+    uses: balusena/readme-generator-repo/.github/workflows/auto-generate-readme.yml@main
+    with:
+      working_dir: "."
+      commit_message: "docs: auto-update README via reusable workflow"
