@@ -41,3 +41,7 @@ No modules.
 | <a name="output_location_used"></a> [location\_used](#output\_location\_used) | n/a |
 | <a name="output_project_used"></a> [project\_used](#output\_project\_used) | n/a |
 <!-- END_TF_DOCS -->
+<!-- BEGIN_REAL_OUTPUTS -->
+## Actual Terraform Output Values
+## Terraform Output Values
+<!-- END_REAL_OUTPUTS -->
