@@ -1,3 +1,4 @@
+sort: true
 formatter: markdown
 output:
   file: README.md
@@ -8,11 +9,10 @@ output:
     <!-- END_TF_DOCS -->
 
 sections:
-  header
-  requirements
-  providers
-  modules
-  resources
-  inputs
-  outputs
-
+  header: {}
+  requirements: {}
+  providers: {}
+  modules: {}
+  resources: {}
+  inputs: {}
+  outputs: {}
