@@ -1,4 +1,5 @@
 formatter: markdown
+
 output:
   file: README.md
   mode: inject
@@ -8,10 +9,10 @@ output:
     <!-- END_TF_DOCS -->
 
 sections:
-  - header
-  - requirements
-  - providers
-  - modules
-  - resources
-  - inputs
-  - outputs
+  header: true
+  requirements: true
+  providers: true
+  modules: true
+  resources: true
+  inputs: true
+  outputs: true
