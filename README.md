@@ -1,6 +1,4 @@
-# Terraform Local Example
 
-This module demonstrates Terraform local provider usage.
 
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
@@ -40,9 +38,7 @@ No modules.
 | <a name="output_file_path"></a> [file\_path](#output\_file\_path) | n/a |
 | <a name="output_location_used"></a> [location\_used](#output\_location\_used) | n/a |
 | <a name="output_project_used"></a> [project\_used](#output\_project\_used) | n/a |
-<!-- END_TF_DOCS -->
-
-<!-- BEGIN_RESOURCE_DESCRIPTIONS -->
+<!-- END_TF_DOCS --><!-- BEGIN_RESOURCE_DESCRIPTIONS -->
 ## Resource Descriptions
 - local_file.example: Automatically captured from Terraform state.
 <!-- END_RESOURCE_DESCRIPTIONS -->
