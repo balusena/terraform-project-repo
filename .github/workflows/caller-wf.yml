@@ -6,11 +6,11 @@ on:
   pull_request:
 
 permissions:
-  contents: write
+  contents: write  # Required to allow commits from reusable workflow
 
 jobs:
   update-readme:
     uses: balusena/readme-generator-repo/.github/workflows/auto-generate-readme.yml@main
     with:
-      working_dir: "."
+      working_dir: "."  # Root of Repo B
       commit_message: "docs: auto-update README via reusable workflow"
