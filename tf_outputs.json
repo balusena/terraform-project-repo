@@ -1,0 +1,17 @@
+{
+  "file_path": {
+    "sensitive": false,
+    "type": "string",
+    "value": "example.txt"
+  },
+  "location_used": {
+    "sensitive": false,
+    "type": "string",
+    "value": "uk"
+  },
+  "project_used": {
+    "sensitive": false,
+    "type": "string",
+    "value": "tt-dev-001"
+  }
+}
