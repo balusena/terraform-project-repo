@@ -44,7 +44,7 @@ No modules.
 <!-- END_RESOURCE_DESCRIPTIONS -->
 <!-- BEGIN_REAL_OUTPUTS -->
 ## Actual Terraform Output Values
-- file_path: example.txt
-- location_used: uk
-- project_used: tt-dev-001
+- file_path: example.txt  
+- location_used: uk  
+- project_used: tt-dev-001  
 <!-- END_REAL_OUTPUTS -->
