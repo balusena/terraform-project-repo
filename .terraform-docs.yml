@@ -1,4 +1,3 @@
-sort: true
 formatter: markdown
 output:
   file: README.md
