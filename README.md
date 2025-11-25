@@ -35,9 +35,9 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_file_path"></a> [file\_path](#output\_file\_path) | n/a |
-| <a name="output_location_used"></a> [location\_used](#output\_location\_used) | n/a |
-| <a name="output_project_used"></a> [project\_used](#output\_project\_used) | n/a |
+| <a name="output_file_path"></a> [file\_path](#output\_file\_path) | Path to the generated local file |
+| <a name="output_location_used"></a> [location\_used](#output\_location\_used) | Location used in the example file |
+| <a name="output_project_used"></a> [project\_used](#output\_project\_used) | Project name used in the example file |
 <!-- END_TF_DOCS --><!-- BEGIN_RESOURCE_DESCRIPTIONS -->
 ## Resource Descriptions
 - local_file.example: Automatically captured from Terraform state.
