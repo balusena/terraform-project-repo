@@ -6,11 +6,11 @@ on:
   pull_request:
 
 permissions:
-  contents: write  # Required to allow commits from reusable workflow
+  contents: write   # Required for workflow to commit README.md
 
 jobs:
   update-readme:
     uses: balusena/readme-generator-repo/.github/workflows/auto-generate-readme.yml@main
     with:
-      working_dir: "."  # Root of Repo B
+      working_dir: "."                # Path to your Terraform files
       commit_message: "docs: auto-update README via reusable workflow"
