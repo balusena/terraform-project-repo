@@ -12,5 +12,5 @@ jobs:
   update-readme:
     uses: balusena/readme-generator-repo/.github/workflows/auto-generate-readme.yml@main
     with:
-      working_dir: "terraform-local"
+      working_dir: "."
       commit_message: "docs: auto-update README via reusable workflow"
