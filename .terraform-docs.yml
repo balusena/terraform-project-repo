@@ -2,16 +2,15 @@ formatter: markdown
 output:
   file: README.md
   mode: inject
-  template: |
-    <!-- BEGIN_TF_DOCS -->
-    {{ .Content }}
-    <!-- END_TF_DOCS -->
-
 sections:
-  header: {}
-  requirements: {}
-  providers: {}
-  modules: {}
-  resources: {}
-  inputs: {}
-  outputs: {}
+  header: true
+  requirements: true
+  providers: true
+  modules: true
+  resources: true
+  inputs: true
+  outputs: true
+template: |
+  <!-- BEGIN_TF_DOCS -->
+  {{ .Content }}
+  <!-- END_TF_DOCS -->
